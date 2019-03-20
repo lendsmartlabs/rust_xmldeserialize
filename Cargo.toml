@@ -1,0 +1,16 @@
+[package]
+name = "xmldeserialization"
+version = "0.0.0"
+authors = ["Rajesh Rajagopal <rajes@lendsmart.ai>"]
+description = "LendSMART XML Deserialization library based on xmlrs"
+
+[[bin]]
+name = "xmldeser"
+path = "src/main.rs"
+doc = false
+
+[dependencies]
+xml-rs = "0.8"
+tokio = "0.1.7"
+futures = "0.1.16"
+

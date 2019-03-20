@@ -1,3 +1,3 @@
-# xmldeserialize
+# xmldeser
 
-This is a public repository for XML deserialization code.
+XML Deserialization for rust.
