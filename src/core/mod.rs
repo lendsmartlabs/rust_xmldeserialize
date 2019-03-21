@@ -1,6 +1,6 @@
 pub mod xmlerror;
 pub mod xmlutil;
-enum DeserializerNext {
+pub enum DeserializerNext {
     Close,
     Skip,
     Element(String),
